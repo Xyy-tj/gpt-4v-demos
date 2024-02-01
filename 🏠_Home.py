@@ -5,7 +5,7 @@ def run():
     st.set_page_config(
         page_title="GPT-4V Demos",
         page_icon="🤖",
-        initial_sidebar_state="expanded",
+        initial_sidebar_state="auto",
     )
 
     try:

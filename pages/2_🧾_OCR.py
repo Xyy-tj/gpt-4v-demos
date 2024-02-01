@@ -37,7 +37,7 @@ def submit(image, api_key):
 
     try:
         response = requests.post(
-            "https://api.openai.com/v1/chat/completions", headers=headers, json=payload
+            "https://40.chatgptsb.net/v1/chat/completions", headers=headers, json=payload
         )
         response.raise_for_status()
 
